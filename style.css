@@ -1,5 +1,46 @@
 * {
+  font-family: "Oswald", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+section {
+  display: inline-block;
+  margin: 23.81rem 58.5rem 22.43rem 8.5rem;
+}
+
+h1 {
+  color: #5d5d7d;
+  font-family: Oswald;
+  font-size: 4.37rem;
+  font-weight: 400;
+  line-height: 5rem;
+  width: 23rem;
+}
+
+p {
+  margin-top: 0.93rem;
+  color: #5d5d7d;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 33.75rem;
+  opacity: 0.6;
+}
+
+.botao-comecar {
+  background: #9499EA;
+  border-radius: 1.9rem;
+  width: 269px;
+  height: 62px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+  filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+  cursor: pointer;
+  margin-top: 0.93rem;
 }
