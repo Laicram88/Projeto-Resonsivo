@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
 section {
   display: inline-block;
   margin: 23.81rem 58.5rem 22.43rem 8.5rem;
@@ -30,7 +35,7 @@ p {
 }
 
 .botao-comecar {
-  background: #9499EA;
+  background: #9499ea;
   border-radius: 1.9rem;
   width: 269px;
   height: 62px;
@@ -40,7 +45,7 @@ p {
   font-size: 24px;
   font-weight: 400;
   border: none;
-  filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+  filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.1));
   cursor: pointer;
   margin-top: 0.93rem;
 }
