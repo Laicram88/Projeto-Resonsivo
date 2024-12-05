@@ -10,9 +10,36 @@
   width: 100vw;
 }
 
-section {
+.container-left {
   display: inline-block;
-  margin: 23.81rem 58.5rem 22.43rem 8.5rem;
+  margin-left: 5.37rem;
+  width: 60%;
+}
+
+.container-right {
+  display: inline-block;
+  background-color: rgba(93, 93, 125, 0.16);
+  height: 100vw;
+  width: 40%;
+  position: fixed;
+}
+
+header {
+  margin: 2.75rem 0rem 9rem 4.75rem;
+}
+
+.link-header {
+  color: #5d5d7d;
+  font-family: Oswald;
+  font-size: 1.75rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 1.43rem;
+}
+
+img {
+  position: absolute;
+  right: 28rem;
 }
 
 h1 {
